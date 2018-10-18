@@ -6,7 +6,7 @@ class QNetwork(nn.Module):
     """Actor (Policy) Model."""
 
     #def __init__(self, state_size, action_size, seed):
-    def __init__(self, state_size, action_size, seed):
+    def __init__(self, state_size, action_size, seed=0, hidden_layer_size = [64,64]):
         """Initialize parameters and build model.
         Params
         ======
@@ -16,8 +16,6 @@ class QNetwork(nn.Module):
         """
         super(QNetwork, self).__init__()
         self.seed = torch.manual_seed(seed)
-        "*** YOUR CODE HERE ***"
-        hidden_layer_size = [64,64]
         layer_size = [state_size] + hidden_layer_size + [action_size]
         self.layers = nn.ModuleList([nn.Linear(layer_size[i],layer_size[i+1]) for i in range(len(layer_size)-1)])
 
