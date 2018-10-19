@@ -28,7 +28,7 @@ The code was programmed in Python 3.6 in a [Jupyter](https://jupyter.org/) noteb
 - [matplotlib](https://matplotlib.org/)
 
 As well, the code
-For full instructions on how to get all required dependencies [click here] (https://github.com/udacity/deep-reinforcement-learning#dependencies)
+For full instructions on how to get all required dependencies [click here](https://github.com/udacity/deep-reinforcement-learning#dependencies)
 
 Download the Unity environment from one of the links below.  You need only select the environment that matches your operating system:
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
@@ -38,4 +38,4 @@ Download the Unity environment from one of the links below.  You need only selec
 
 ### Instructions
 
-Follow the instructions in `Report.ipynb` to train the agent!
+Clone the repository and follow the instructions in `Report.ipynb` to train the agent!
