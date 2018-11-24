@@ -27,7 +27,6 @@ The code was programmed in Python 3.6 in a [Jupyter](https://jupyter.org/) noteb
 - [numpy](http://www.numpy.org/)
 - [matplotlib](https://matplotlib.org/)
 
-As well, the code
 For full instructions on how to get all required dependencies [click here](https://github.com/udacity/deep-reinforcement-learning#dependencies)
 
 Download the Unity environment from one of the links below.  You need only select the environment that matches your operating system:
